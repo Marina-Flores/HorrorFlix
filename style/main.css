@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+:root{
+    --fundo: #1f1f1f
+}
+body{
+    background-color: var(--fundo);
+}
+.cabecalho {
+    background-color: var(--fundo);
+    font-family: 'Mate SC', serif;   
+}
+header .container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.logoHorrorFlix{
+    height: 100px;
+    margin-left: 1rem;
+}
+
+.link{
+    color: #aaa;
+    margin-right: 0.7rem;
+}
+.link:hover{
+    color: #fff;
+}
+.link:last-child{
+    margin-right: 2.2rem;
+}
+
+main{
+    color: white;
+    font-family: 'Mate SC', serif; 
+}
+
+.filmePrincipal {
+    font-size: 16px;
+    background: url(../img/invocacao2.jpg) no-repeat ;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filmePrincipal .description{
+    margin-bottom: 3rem;
+}
+
+.titulo{
+    margin-top: 8%;
+    font-size: 40px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 1rem;
+    font-size: 12px;
+    transition: 0.3s ease all;
+}
+
+.botao:hover{
+    background-color: rgb(213, 210, 210);
+    color: #000;
+    font-weight: bold;
+
+}
